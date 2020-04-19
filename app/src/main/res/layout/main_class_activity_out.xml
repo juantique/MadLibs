@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/outview14"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Muchos años después, frente al pelotón de fusilamiento, el wx Aureliano Buendía wx de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo. wx era entonces una aldea de veinte casas de barro y cañabrava construidas a la orilla de un río de aguas wx que se precipitaban por un lecho de piedras pulidas, blancas y enormes como huevos prehistóricos. El mundo era tan reciente, que muchas cosas carecían de wx, y para mencionarlas había que señalarlas con el dedo. Todos los años, por el mes de marzo, una familia de wx desarrapados plantaba su carpa cerca de la aldea, y con un grande alboroto de pitos y timbales daban a conocer los nuevos inventos. Primero llevaron el imán. Un gitano corpulento de barba montaraz y manos de gorrión, que se presentó con el nombre de Melquíades, hizo una truculenta demostración pública de lo que él mismo llamaba la octava maravilla de los sabios alquimistas de Macedonia. Fue de casa en casa wx dos lingotes metálicos, todo el mundo se espantó al ver que... " />
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.39" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/outview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="1.) Rango militar gobierno:" />
+
+            <TextView
+                android:id="@+id/lvheader_song"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="2.) Verbo Conjugado (3P):" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="3.) Lugar de Sueños:" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="4.) Sustantivo de Luz:" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="5.) Persona o Cosa:" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="6.) Comunidad o Etnia:" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:paddingTop="10dp"
+                android:text="7.) Verb Gerendio Simple:" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/anskey_clover"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            android:orientation="vertical" >
+
+            <AutoCompleteTextView
+                android:id="@+id/auview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+            <AutoCompleteTextView
+                android:id="@+id/auview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="1dp"
+        android:layout_weight="0.25"
+        android:onClick="onClick"
+        android:text="Genera tu Mad Lib" />
+
+</LinearLayout>
